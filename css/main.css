@@ -1,0 +1,247 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*.container{
+    width: 1440px;
+}
+*/
+body{
+
+}
+img{
+	width: 100%;
+}
+header{
+    width: 100%;
+
+}
+header h1{
+	position:relative;
+	left: 999px;
+	display: none;
+	
+}
+header nav .nav-menu li a{
+	color:#4a3717;
+	font-size: 24px;
+}
+header nav .nav-menu li a:link{
+	text-decoration: none;
+	
+}
+header nav .nav-menu li a:hover{
+	text-decoration: underline;
+
+}
+header nav .nav-menu li a:active{
+
+}
+.aboutUs{
+	background-color:#F9F7DF; 
+}
+.aboutUs article{ 
+	color:#4a3717;
+	text-align: center;
+	line-height: 35px;
+	font-size: 24px;
+	margin: 0 auto;
+	width: 70%;
+
+}
+.ApartmentHeading1{
+	background-color: #dde9a8;
+	
+}
+.ApartmentHeading1 h2{
+	color:#4a3717;
+	padding: 1.2%;
+	text-align: center;
+}
+
+.Bedroomtype img{
+	max-width: 200px;
+}
+#Studio{
+	background-color: #e9ecf3;
+}
+#OneBedroom{
+	background-color: #decad5;
+}
+#TwoBedroom{
+	background-color: #b4e9c5;
+}
+.intro{
+	background-color:#F9F7DF; 
+}
+.intro p{
+	color:#4a3717;
+	text-align: center;
+	line-height: 35px;
+	font-size: 24px;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.intro figcaption{
+	color: #4a3717;
+	font-size: 24px;
+	text-align: center;
+}
+.Amenities{
+	background-color:#F9F7DF; 
+}
+.Amenities ul{
+	background-color:#F9F7DF; 
+	color:#4a3717;
+	text-align: center;
+	line-height: 35px;
+	font-size: 24px;
+	margin: 0 auto;
+	width: 70%;
+}
+.GoogleMap article{
+	background-color:#637085; 
+
+}
+.GoogleMap article p{
+	color:#f9e4e4;
+	font-size: 54px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+	width: 70%;
+}
+.GoogleMap iframe{
+	width: 100%;
+}
+footer{
+	background-color: #111112;
+}
+footer article{
+	width: 33%;
+	display: inline-block;
+	word-wrap:break-word;
+	color: #e9ecf3;
+	font-size: 18px;
+}
+footer article a:link{
+	color: #e9ecf3;
+	text-decoration: none;
+}
+footer article a:hover{
+	color: #e9ecf3;
+	text-decoration: underline;
+}
+footer article a:visited{
+	color: #e9ecf3;
+}
+footer p{
+	color: #e9ecf3;
+	text-align: center;
+}
+/* Clear Fix*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+@media screen and (min-width: 813px){
+	.Bedroomtype{
+	width: 33%;
+	display:inline-block;
+	color:#4a3717;
+	font-size: 20px;
+	text-align: center;
+	}
+	.container2{
+		width: 95%;
+		margin: 0 auto;
+	}
+	footer article{
+	width: 33%;
+	display: inline-block;
+	word-wrap:break-word;
+	color: #e9ecf3;
+	font-size: 18px;
+	}
+}
+@media screen and (max-width: 812px){
+	.Bedroomtype{
+	width: 100%;
+	display:block;
+	color:#4a3717;
+	font-size: 20px;
+	text-align: center;
+	}
+	footer article{
+	width: 100%;
+	display: block;
+	word-wrap:break-word;
+	color: #e9ecf3;
+	font-size: 18px;
+	text-align: center;
+	}
+}
+@media screen and (min-width: 801px){
+	header img{
+	margin: 0 auto;
+	max-width: 140px;
+	float: left;
+	padding: 1%;
+	 
+	}
+	header .menu-trigger{
+	display:none;
+	}
+	header nav{
+	float: right;
+	position: absolute;
+	top: 8%;
+	right:2%;
+	}
+
+header nav .nav-menu li {
+	display:inline;
+	padding: 0 10px 0 10px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	header img{
+	width: 20%;
+	min-width: 200px;
+	position: relative;
+	left: 40%;
+	}
+	 .menu-trigger a {
+	display: block;
+	text-align: center;
+	color:#4a3717;
+	font-size: 24px;
+	padding: 2%;
+	}
+	.menu-trigger a:link {
+	}
+	.menu-trigger a:hover {
+		background-color: #dde9a8;
+	}
+	
+header nav .nav-menu li {
+	display:block;
+	text-align: center;
+	padding: 1%;
+}
+header nav .nav-menu li:hover {
+	background-color: #dde9a8; 
+}
+}
